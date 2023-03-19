@@ -1,0 +1,27 @@
+/* 
+#topBar {
+    display: inline;
+} */
+
+/* #myName {
+    width: 30%
+} */
+
+#navLinks {
+    float: right;
+}
+
+#navLinks ul li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.sectionHead {
+    float: left;
+    /* display: block; */
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid green;
+}
