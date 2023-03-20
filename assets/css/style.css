@@ -1,5 +1,4 @@
-/* 
-#topBar {
+/* #topBar {
     display: inline;
 } */
 
@@ -8,20 +7,31 @@
 } */
 
 #navLinks {
-    float: right;
+  float: right;
 }
 
+/* #navLinks ul {
+    list-style-type: none;
+} */
+
 #navLinks ul li {
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
 }
 
 .sectionHead {
-    float: left;
-    /* display: block; */
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid green;
+  display: left;
+  /* display: block; */
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid green;
+  width: 15%;
+}
+
+.textBlock {
+  width: 75%;
+  float: right;
+  position: top;
 }
