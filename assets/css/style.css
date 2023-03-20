@@ -35,3 +35,34 @@
   float: right;
   position: top;
 }
+
+.container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 100%;
+}
+
+img {
+  height: 16rem;
+  width: 16rem;
+}
+
+#mainPhoto {
+  height: 24rem;
+  width: 24rem;
+}
